@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+.text {
+    margin: 0;
+    padding-top: 40vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+
+}
+
+.text:last-child {
+    font-size: 2.5rem;
+    padding: 20px;
+}
+
+.main {
+    background-repeat: no-repeat;
+    background-image: url("https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.main-navigation {
+    display: flex;
+    list-style: none;
+}
+
+.main-navigation_item {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.main-button {
+    background: #fff;
+    border: 1px solid #000;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
