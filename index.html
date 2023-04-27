@@ -2,46 +2,219 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-
-
-    <title>Document</title>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+	<title>Document</title>
 </head>
 
 <body>
-    <header class="main-header">
-        <img src="./img/logo.jpg" alt="" width="50" height="50">
-        <nav>
-            <ul class="main-navigation">
-                <li class="main-navigation_item"><a href="#">HOME</a></li>
-                <li class="main-navigation_item"><a href="#">ABOUT</a></li>
-                <li class="main-navigation_item"><a href="#">PROJECTS</a></li>
-                <li class="main-navigation_item"><a href="#">CONTACTS</a></li>
-            </ul>
-        </nav>
-        <button class="main-button">
-            Oreder Now
-        </button>
-    </header>
-    <main>
-        <div class="main">
-            <h1 class="text">WE ARE SUPER COMPANY</h1>
-            <h2 class="text texts">the Best of the Best</h2>
-            <button class="main-button main-button-inverted">SEE OUR PROJECTS</button>
-        </div>
-        <div class="about-us">
-            <h1 class="main-selection-header">About us</h1>
-        </div>
-        <div class="about-section">
-            <img class="about-img"
-                src="https://images.unsplash.com/photo-1486718448742-163732cd1544?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-                alt="">
-            <div class="about-content"></div>
-        </div>
-    </main>
+	<header class="main-header">
+		<img class="main-logo" src="./assets/logo.png" alt="logo" width="50" height="50" />
+		<nav>
+			<ul class="main-navigation">
+				<li id="main" class="main-navigation-item">
+					<a href="##">HOME</a>
+				</li>
+				<li id="about" class="main-navigation-item">
+					<a href="##">ABOUT</a>
+				</li>
+				<li id="project" class="main-navigation-item">
+					<a href="##">PROJECTS</a>
+				</li>
+				<li id="contact" class="main-navigation-item">
+					<a href="##">CONTACTS</a>
+				</li>
+			</ul>
+		</nav>
+
+		<button class="main-button header-button">ORDER NOW</button>
+	</header>
+	<main>
+		<div id="main-block" class="main">
+			<h1>WE ARE SUPER COMPANY</h1>
+			<h3>The best order</h3>
+			<button id="pro" class="main-button main-button-inverted">
+				SEE OUR PROJECTS
+			</button>
+		</div>
+		<section id="about-block" class="about-us">
+			<h1 id="about" class="main-section-header">About</h1>
+
+			<div class="about-section">
+				<img src="https://images.unsplash.com/photo-1486718448742-163732cd1544?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+					alt="" class="about-image" />
+
+				<div class="about-content">
+					<h2>Architechtural plandesign and build</h2>
+					<div class="separator"></div>
+					<h4>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+						ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+						accumsan lacus vel facilisis.
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+						ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+						accumsan lacus vel facilisis.
+					</h4>
+
+					<div class="abous-us-checkmarks">
+						<div class="checkmark-row">
+							<div class="checkmark-bg">
+								<img src="./assets/checkmark.svg" alt="checkmark" />
+							</div>
+							<p>Consectetur adipiscing sed do eiusmod.</p>
+						</div>
+						<div class="checkmark-row">
+							<div class="checkmark-bg">
+								<img src="./assets/checkmark.svg" alt="checkmark" />
+							</div>
+							<p>Consectetur adipiscing sed do eiusmod.</p>
+						</div>
+						<div class="checkmark-row">
+							<div class="checkmark-bg">
+								<img src="./assets/checkmark.svg" alt="checkmark" />
+							</div>
+							<p>Consectetur adipiscing sed do eiusmod.</p>
+						</div>
+					</div>
+					<button class="main-button about-us-button">ABOUT US</button>
+				</div>
+			</div>
+		</section>
+		<section id="project-block" class="project">
+			<div class="project-block">
+				<h1 id="project" class="project_h1">Our Latest Projects</h1>
+				<div class="project-section">
+					<div class="project-section__img">
+						<img src="assets/project.png" alt="">
+					</div>
+					<div class="project-section__text">
+						<div class="project-header">
+							<h3 class="project-section__text_h3">DUBAI, UAE</h3>
+							<h2 class="project-section__text_h2">Abahoni Building</h2>
+						</div>
+						<h4 class="project-section__text_h4">Consectetur adipiscing elit, sed do eiusmod tempor labore
+							et dolore
+							magna
+							aliqua quis ipsum suspendisse.
+						</h4>
+						<button class="main-button about-us-button">VIEW MORE</button>
+					</div>
+				</div>
+			</div>
+			<div class="project-block">
+				<div class="project-section project-rew">
+					<div class="project-section__img">
+						<img src="assets/project2.png" alt="">
+					</div>
+					<div class="project-section__text">
+						<div class="project-header">
+							<h3 class="project-section__text_h3">DUBAI, UAE</h3>
+							<h2 class="project-section__text_h2">Abahoni Building</h2>
+						</div>
+						<h4 class="project-section__text_h4">Consectetur adipiscing elit, sed do eiusmod tempor labore
+							et dolore
+							magna
+							aliqua quis ipsum suspendisse.
+						</h4>
+						<button class="main-button about-us-button">VIEW MORE</button>
+					</div>
+				</div>
+			</div>
+			<div class="project-block">
+				<div class="project-section">
+					<div class="project-section__img">
+						<img src="assets/project3.png" alt="">
+					</div>
+					<div class="project-section__text">
+						<div class="project-header">
+							<h3 class="project-section__text_h3">DUBAI, UAE</h3>
+							<h2 class="project-section__text_h2">Abahoni Building</h2>
+						</div>
+						<h4 class="project-section__text_h4">Consectetur adipiscing elit, sed do eiusmod tempor labore
+							et dolore
+							magna
+							aliqua quis ipsum suspendisse.
+						</h4>
+						<button class="main-button about-us-button">VIEW MORE</button>
+					</div>
+				</div>
+			</div>
+			<div class="project-block">
+				<div class="project-section project-rew">
+					<div class="project-section__img">
+						<img src="assets/project4.png" alt="">
+					</div>
+					<div class="project-section__text">
+						<div class="project-header">
+							<h3 class="project-section__text_h3">DUBAI, UAE</h3>
+							<h2 class="project-section__text_h2">Abahoni Building</h2>
+						</div>
+						<h4 class="project-section__text_h4">Consectetur adipiscing elit, sed do eiusmod tempor labore
+							et dolore
+							magna
+							aliqua quis ipsum suspendisse.
+						</h4>
+						<button class="main-button about-us-button">VIEW MORE</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contact-block" class="contact">
+			<h1 id="contact" class="contact_h1">CONTACT US</h1>
+			<div class="contact-block">
+				<div class="contact-img">
+					<img src="assets/contact.png" alt="">
+				</div>
+				<form action="">
+					<h1>Send your message</h1>
+					<input class="input" type="email" name="email" placeholder="Your email" required>
+					<input class="input" type="tel" name="number" placeholder="Your phone" required>
+					<textarea class="textarea" name="text" id="" placeholder="Your message"></textarea>
+					<button class="main-button about-us-button form-button">SEND</button>
+				</form>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="footer-block_first">
+			<img src="assets/logo.png" alt="">
+			<h2 class="footer-block_first__h2">WE ARE SUPER COMPANY</h2>
+			<h4 class="footer-block_first__h4">The best order</h4>
+			<button class="main-button header-button">SEE OUR PROJECTS</button>
+		</div>
+		<div class="footer-block_second">
+			<h4 class="footer-block_second__h4">Controls</h4>
+			<ul class="footer-second__ul" style="padding-left: 0;">
+				<li class="footer-second__li">HOME</li>
+				<li class="footer-second__li">ABOUT US</li>
+				<li class="footer-second__li">PROJECTS</li>
+				<li class="footer-second__li">ORDER NOW</li>
+			</ul>
+		</div>
+		<div class="footer-block_third">
+			<h4 class="footer-block_third__h4">Controls</h4>
+			<ul class="footer-third__ul" style="padding-left: 0;">
+				<li class="footer-third__li sec">Phone: <a class="footer-third__li-a" href="tel:+380984120860">+380 98
+						412
+						08 60</a></li>
+				<li class="footer-third__li sec">Email: <a class="footer-third__li-a"
+						href="mailto:pytulyalybomyr@gmail.com">pytulyalybomyr@gmail.com</a></li>
+				<li class="footer-third__li sec">Address: <a class="footer-third__li-a"
+						href="https://www.google.com.ua/maps/dir/49.8242874,23.9777646/Golden+Gate+Ave,+San+Francisco,+CA,+%D0%A1%D0%A8%D0%90/@37.7762382,-122.4322884,14.11z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x808580ba8978d0e3:0x7e5e88714e6f57d!2m2!1d-122.4341436!2d37.7793018?hl=en">Golden
+						Gate Ave, San Francisco</a></li>
+			</ul>
+		</div>
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.457959470572!2d-122.43671852511034!3d37.779306011900545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580ba8978d0e3%3A0x7e5e88714e6f57d!2zR29sZGVuIEdhdGUgQXZlLCBTYW4gRnJhbmNpc2NvLCBDQSwg0KHQqNCQ!5e0!3m2!1sru!2sua!4v1682604706485!5m2!1sru!2sua"
+			width="430" height="260" style="border:0;" allowfullscreen="" loading="lazy"
+			referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</footer>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="script.js"></script>
 
 </html>
